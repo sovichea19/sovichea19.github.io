@@ -35,3 +35,23 @@ a:hover {
     font-size: 150%;
     color: #00008b;
 }
+
+#favoriteMovies ul li {
+    list-style-type: none;
+}
+
+#favoriteMovies ul {
+    padding: 5px 0px 5px 0px;
+}
+
+.movieKey {
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.movieValue {
+    padding-left: 50px;
+    font-size: 13px;
+    color: #818989;
+}
