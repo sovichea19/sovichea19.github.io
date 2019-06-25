@@ -7,22 +7,26 @@ body {
     color: #FF6E2B;
 }
 
-.personalType {
+.personalityType {
     color: #29aa20;
 }
 
 a:active {
     color: #ff5b81;
+    text-decoration: underline;
 }
 
 a:link {
     color: #f72559;
+    text-decoration: none;
 }
 
 a:visited {
     color: #ba6a7d;
+    text-decoration: none;
 }
 
 a:hover {
     color: #f910bf;
+    text-decoration: underline;
 }
