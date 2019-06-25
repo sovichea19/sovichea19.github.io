@@ -30,3 +30,8 @@ a:hover {
     color: #f910bf;
     text-decoration: underline;
 }
+
+.dropCap::first-letter {
+    font-size: 150%;
+    color: #00008b;
+}
