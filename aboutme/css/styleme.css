@@ -1,0 +1,28 @@
+body {
+    background-color: #DBDBDB;
+    font-family: "Trebuchet MS";
+}
+
+.title {
+    color: #FF6E2B;
+}
+
+.personalType {
+    color: #29aa20;
+}
+
+a:active {
+    color: #ff5b81;
+}
+
+a:link {
+    color: #f72559;
+}
+
+a:visited {
+    color: #ba6a7d;
+}
+
+a:hover {
+    color: #f910bf;
+}
