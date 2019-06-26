@@ -22,3 +22,7 @@ body {
 .orangeBorder {
     border: orange solid 5px;
 }
+
+#w3cValidator {
+    padding: 5px;
+}
