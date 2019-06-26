@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pageContainer {
+    border: green solid 5px;
+}
+
+.redBorder {
+    border: red solid 5px;
+}
+
+.blueBorder {
+    border: blue solid 5px;
+}
+
+.purpleBorder {
+    border: purple solid 5px;
+}
+
+.orangeBorder {
+    border: orange solid 5px;
+}
