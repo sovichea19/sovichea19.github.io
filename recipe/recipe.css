@@ -5,15 +5,9 @@ body {
     font-family: Georgia, Garamond, serif;
 }
 
-.otherLinks a {
+.links {
     color: #A4A400;
     display: block;
-}
-
-.otherLinks pre {
-    float: left;
-    text-align: right;
-    clear: left;
 }
 
 #recipeInfo {
