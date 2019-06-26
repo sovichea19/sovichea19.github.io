@@ -35,3 +35,22 @@ a:hover {
     font-size: 150%;
     color: #00008b;
 }
+
+ol ul {
+    padding-top: 5px;
+    paddingt-bottom: 5px;
+}
+
+ol ul li {
+    list-style-type: none;
+}
+
+.movieDetailKey {
+    color: #FF6E01;
+    font-weight: bold;
+}
+
+.movieDetailValue {
+    color: #404040;
+    padding-left: 50px;
+}
