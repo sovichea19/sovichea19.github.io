@@ -1,28 +1,68 @@
-body {
-    margin: 0;
-    padding: 0;
+* {
+    font-family: "Trebuchet MS";
 }
 
-#pageContainer {
-    border: green solid 5px;
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+    /*background-image: url("http://mumstudents.org/cs472/2019-07-RS/Labs/2/background.gif");*/
+}
+
+.greenBorder {
+    border: white solid 10px;
+    background-color: white;
 }
 
 .redBorder {
-    border: red solid 5px;
+    /*border: red solid 5px;*/
+    text-align: right;
+    background-color: #A8F0F0;
 }
 
 .blueBorder {
-    border: blue solid 5px;
+    border: #C2E9E9 solid 4px;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: justify;
+    overflow: auto;
+    border-radius: 15px;
+}
+
+.blueBorder img {
+    float: right;
+    clear: both;
 }
 
 .purpleBorder {
-    border: purple solid 5px;
+    border-bottom: #009097 dashed 2px;
 }
 
 .orangeBorder {
-    border: orange solid 5px;
+    /*border: orange solid 5px;*/
+    font-size: 14pt;
 }
 
 #w3cValidator {
     padding: 5px;
+    position: absolute;
+    bottom: 0;
 }
+
+#friendColumn {
+    float: left;
+    width: 25%;
+    clear: both;
+    background-color: #A8F0F0;
+    border: #009097 solid 5px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#contentColumn {
+    float: right;
+    width: 70%;
+}
+
