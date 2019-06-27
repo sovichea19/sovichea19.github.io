@@ -38,6 +38,11 @@ h1 {
 #section2 {
     width: 250px;
     float: right;
+    background-color: #A2B964;
+}
+
+#section2 img {
+    width: 250px;
 }
 
 #rotten {
@@ -70,7 +75,7 @@ h1 {
     border-radius: 10px;
 }
 
-p{
+p {
     margin: 10px;
     padding: 10px;
 }
@@ -78,4 +83,16 @@ p{
 .commentImage {
     float: left;
     padding: 1px;
+}
+
+dl {
+    margin: 10px;
+}
+
+dd {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
 }
