@@ -13,11 +13,6 @@ body {
     display: block;
 }
 
-#recipeInfo {
-    padding: 0;
-    list-style-type: none;
-}
-
 #recipeImage {
     padding-top: 10px;
 }
