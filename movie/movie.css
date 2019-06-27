@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("images/background.png");
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+}
+
+#banner {
+    height: 50px;
+    background-image: url("images/bannerbg.png");
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+
+#content {
+    width: 800px;
+    margin: auto;
+    border: 4px solid grey;
+    border-radius: 20px;
+    overflow: auto;
+    position: relative;
+}
+
+#section1 {
+    width: 550px;
+    float: left;
+}
+
+#section2 {
+    width: 250px;
+    float: right;
+}
+
+#rotten {
+    background-image: url("images/rbg.png");
+    background-repeat: repeat-x;
+    border-top-left-radius: 16px;
+}
+
+#rottenPercentage {
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#reviewColumn1 {
+    width: 47%;
+    float: left;
+    clear: both;
+}
+
+#reviewColumn2 {
+    width: 47%;
+    float: right;
+}
+
+.comment {
+    background-color: #E8DC9B;
+    border: gray 2px solid;
+    border-radius: 10px;
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+}
+
+.commentImage {
+    float: left;
+    padding: 1px;
+}

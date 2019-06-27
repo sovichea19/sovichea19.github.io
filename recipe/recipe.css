@@ -47,3 +47,13 @@ body {
 ul {
     list-style-image: url("images/pie_icon.gif");
 }
+
+#copyright {
+    float: right;
+    clear: both;
+    text-align: right;
+}
+
+#validator {
+    float: right;
+}

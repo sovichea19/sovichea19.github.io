@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615e89d1-fb5b-4b68-a623-52891136135a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/movie/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/bannerbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/critic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/fresh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/rbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/rotten.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/rottenbig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/tmnt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/w3c-css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/w3c-html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/images/w3c-xhtml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/movie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie/tmnt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutme/css/styleme.css" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme/css/styleme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/pie.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/pie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/recipe.css" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/recipe.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +32,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recipe/pie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="124">
+              <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
               <folding>
-                <element signature="e#3915#3921#0" expanded="true" />
+                <element signature="e#4296#4302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,8 +44,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipe/recipe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="514">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/tmnt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie/movie.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -69,6 +102,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/aboutme/index.html" />
         <option value="$PROJECT_DIR$/aboutme/css/styleme.css" />
+        <option value="$PROJECT_DIR$/movie/tmnt.html" />
+        <option value="$PROJECT_DIR$/movie/movie.css" />
         <option value="$PROJECT_DIR$/recipe/recipe.css" />
         <option value="$PROJECT_DIR$/recipe/pie.html" />
       </list>
@@ -78,8 +113,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="32" />
+    <option name="x" value="463" />
+    <option name="y" value="70" />
     <option name="width" value="1110" />
     <option name="height" value="683" />
   </component>
@@ -98,13 +133,7 @@
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="aboutme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="aboutme" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,6 +151,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie/images" />
       <recent name="$PROJECT_DIR$/recipe/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -155,15 +185,15 @@
       <option name="presentableId" value="Default" />
       <updated>1561402918895</updated>
       <workItem from="1561402920399" duration="14086000" />
-      <workItem from="1561561007104" duration="7890000" />
+      <workItem from="1561561007104" duration="11265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21976000" />
+    <option name="totallyTimeSpent" value="25351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="32" width="1110" height="683" extended-state="0" />
+    <frame x="463" y="70" width="1110" height="683" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28932583" />
@@ -226,19 +256,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/movie/tmnt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/movie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/recipe/recipe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="514">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe/pie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="124">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
           <folding>
-            <element signature="e#3915#3921#0" expanded="true" />
+            <element signature="e#4296#4302#0" expanded="true" />
           </folding>
         </state>
       </provider>
