@@ -17,11 +17,10 @@ body {
     padding-top: 10px;
 }
 
-.titleHeading{
+h1 {
     color: #A4A400;
     background-color: #F0F0F0;
     font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
-    text-align: left;
     font-size: 18pt;
     text-decoration: underline;
     padding: 0.25em;
