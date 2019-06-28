@@ -96,3 +96,22 @@ dd {
 ul {
     list-style-type: none;
 }
+
+.pagination {
+    clear: both;
+    text-align: center;
+    background-color: #A2B964;
+    padding: 5px;
+}
+
+#validator {
+    opacity: 0.5;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#validator a {
+    display: block;
+}
