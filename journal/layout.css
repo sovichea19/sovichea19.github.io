@@ -1,5 +1,5 @@
 * {
-    font-family: "Trebuchet MS";
+    font-family: Arial, Trebuchet MS, sans-serif;
 }
 
 body {
@@ -9,18 +9,19 @@ body {
     /*background-image: url("http://mumstudents.org/cs472/2019-07-RS/Labs/2/background.gif");*/
 }
 
-.greenBorder {
+.container {
     border: white solid 10px;
     background-color: white;
+    display: inline-block;
 }
 
-.redBorder {
+.header {
     /*border: red solid 5px;*/
     text-align: right;
     background-color: #A8F0F0;
 }
 
-.blueBorder {
+.content {
     border: #C2E9E9 solid 4px;
     background-color: #E8FBFB;
     padding: 5px;
@@ -30,24 +31,23 @@ body {
     border-radius: 15px;
 }
 
-.blueBorder img {
+.content img {
     float: right;
     clear: both;
 }
 
-.purpleBorder {
+.contentTitle {
     border-bottom: #009097 dashed 2px;
 }
 
-.orangeBorder {
+.headerTitle {
     /*border: orange solid 5px;*/
     font-size: 14pt;
 }
 
 #w3cValidator {
     padding: 5px;
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 #friendColumn {
@@ -63,6 +63,6 @@ body {
 
 #contentColumn {
     float: right;
-    width: 70%;
+    width: 68%;
 }
 
