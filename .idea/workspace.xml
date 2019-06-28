@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615e89d1-fb5b-4b68-a623-52891136135a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/journal/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/journal/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/tmnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie/tmnt.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movie/tmnt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="129" column="43" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/journal/layout.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -68,10 +77,10 @@
         <option value="$PROJECT_DIR$/practice/morefloat.html" />
         <option value="$PROJECT_DIR$/practice/morefloat.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/movie/tmnt.html" />
         <option value="$PROJECT_DIR$/movie/movie.css" />
         <option value="$PROJECT_DIR$/journal/journal.html" />
         <option value="$PROJECT_DIR$/journal/layout.css" />
+        <option value="$PROJECT_DIR$/movie/tmnt.html" />
       </list>
     </option>
   </component>
@@ -99,7 +108,13 @@
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="journal" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="movie" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -156,12 +171,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561402918895</updated>
       <workItem from="1561402920399" duration="14086000" />
-      <workItem from="1561561007104" duration="21273000" />
+      <workItem from="1561561007104" duration="21596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35359000" />
+    <option name="totallyTimeSpent" value="35682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="116" y="27" width="1110" height="683" extended-state="0" />
@@ -293,10 +308,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie/tmnt.html">
+    <entry file="file://$PROJECT_DIR$/journal/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -307,10 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/journal/layout.css">
+    <entry file="file://$PROJECT_DIR$/movie/tmnt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="129">
+          <caret line="129" column="43" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="43" />
         </state>
       </provider>
     </entry>
