@@ -39,6 +39,7 @@ h1 {
     width: 250px;
     float: right;
     background-color: #A2B964;
+    font-family: Arial, sans-serif;
 }
 
 #section2 img {
@@ -55,7 +56,12 @@ h1 {
     font-size: 48pt;
     color: red;
     font-weight: bold;
-    margin-bottom: 10px;
+    bottom: 10px;
+    vertical-align: 25px;
+}
+
+#rottenImage {
+    vertical-align: 10px;
 }
 
 #reviewColumn1 {
@@ -73,16 +79,22 @@ h1 {
     background-color: #E8DC9B;
     border: gray 2px solid;
     border-radius: 10px;
+    vertical-align: 20pt;
 }
 
 p {
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
+    overflow: auto;
 }
 
 .commentImage {
     float: left;
-    padding: 1px;
+    padding-right: 5px;
+}
+
+.moviePublication {
+    font-style: italic;
 }
 
 dl {
@@ -93,8 +105,13 @@ dd {
     padding: 10px;
 }
 
-ul {
+dt {
+    font-weight: bold;
+}
+
+dd ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .pagination {
