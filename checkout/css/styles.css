@@ -9,9 +9,10 @@
 }
 
 .input-control {
-    width: 35%;
+    width: auto;
 }
 
 .input-field {
     display: block;
+    padding-bottom: 10px;
 }
