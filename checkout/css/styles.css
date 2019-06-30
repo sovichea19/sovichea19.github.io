@@ -39,3 +39,7 @@ fieldset {
 #button {
     text-align: center;
 }
+
+.custom-fieldset {
+    border: 1px lightgray solid;
+}
