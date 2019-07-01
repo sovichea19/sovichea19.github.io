@@ -20,6 +20,7 @@ h1 {
 legend {
 	font-family: "Impact", fantasy;
 	font-size: 120%;
+	padding: 10px;
 }
 
 textarea {

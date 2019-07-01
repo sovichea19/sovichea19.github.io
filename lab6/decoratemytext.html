@@ -26,15 +26,13 @@
 		<!-- Your UI controls go here -->
 		<fieldset>
 			<legend>Text</legend>
-			<textarea id="text" rows="4" cols="30">
-				Sample Item 1
-				Sample Item 2
-			</textarea>
+			<textarea id="text" rows="4" cols="30">Happy</textarea>
 		</fieldset>
 		<fieldset>
 			<legend>Decoration</legend>
 			<button id="bigger-decoration" onclick="biggerDecoration();">Bigger Decorations!</button><br/>
-			<input type="checkbox" value="Bling" id="bling"> Bling
+			<input type="checkbox" value="Bling" id="bling" onchange="checkbox();"> Bling <br/>
+			<button id="pig-latin" onclick="pigLatin();">Igpay Atinlay (Pig Latin)</button>
 		</fieldset>
 		
 	</body>
