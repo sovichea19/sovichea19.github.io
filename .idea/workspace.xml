@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615e89d1-fb5b-4b68-a623-52891136135a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animation/ascii.css" beforeDir="false" afterPath="$PROJECT_DIR$/animation/ascii.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animation/ascii.html" beforeDir="false" afterPath="$PROJECT_DIR$/animation/ascii.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animation/ascii.js" beforeDir="false" afterPath="$PROJECT_DIR$/animation/ascii.js" afterDir="false" />
     </list>
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation/ascii.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="750">
+              <caret line="50" column="94" lean-forward="true" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -36,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/animation/ascii.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="81">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -45,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation/animations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="267">
               <caret line="43" column="13" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -188,18 +186,18 @@
       <option name="presentableId" value="Default" />
       <updated>1561402918895</updated>
       <workItem from="1561402920399" duration="14086000" />
-      <workItem from="1561561007104" duration="41875000" />
+      <workItem from="1561561007104" duration="43618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55961000" />
+    <option name="totallyTimeSpent" value="57704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="254" y="71" width="1110" height="683" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20224719" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20224719" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -466,7 +464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animation/animations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="267">
           <caret line="43" column="13" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -476,15 +474,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animation/ascii.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="750">
+          <caret line="50" column="94" lean-forward="true" selection-start-line="50" selection-start-column="94" selection-end-line="50" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation/ascii.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="81">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
