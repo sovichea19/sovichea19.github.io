@@ -1,47 +1,36 @@
-body{
-    font-weight: bold;
-    text-align: center;
-    margin-left: auto;
-    margin-right:auto;
-    background-color:#CCCCFF;
-    font-family: sans-serif;
+body {
+    background-color: #CCCCFF;
     font-size: 14pt;
-}
-
-header{
-    font-size: 32pt;
     font-weight: bold;
-    margin:0px;
+    font-family: sans-serif;
 }
 
-#text-area{
+h1 {
+    font-size: 32pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+textarea {
+    height: 400px;
+    width: 90%;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
     margin-left: auto;
     margin-right: auto;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 12pt;
-    width: 90%;
-    height: 400px;
+    display: block;
 }
 
-fieldset{
-    border: 5px solid black;
+fieldset {
+    border: 5px solid;
     display: inline;
 }
 
-legend {
-    text-align: left;
+#controls {
+    text-align: center;
 }
 
-button{
-    width: 47%;
-}
-
-select{
-    width:98%;
-}
-
-#validate{
-    right:0px;
-    position: fixed;
+#w3cValidator {
+    padding-top: 25px;
 }

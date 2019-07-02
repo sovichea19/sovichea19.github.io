@@ -1,84 +1,39 @@
 "use strict";
-window.onload = function() {
 
-    document.getElementById("fontsize").onchange = function() {
-        var selectedFontSize = document.getElementById("fontsize").value;
-        document.getElementById("text-area").style.fontSize = selectedFontSize;
-    };
+var text, animation, size;
 
-    document.getElementById("animation").onchange = function() {
-        var selectedAnimation = document.getElementById("animation").value;
-        var animationStr = ANIMATIONS[selectedAnimation];
-        document.getElementById("text-area").value = animationStr;
-    };
-
-    var startBtn = document.getElementById("start");
-    startBtn.onclick = function() {
-        start();
-    };
-
-    var stopBtn = document.getElementById("stop");
-    stopBtn.onclick = function() {
-        stop();
-    };
-
-    var turboBtn = document.getElementById("turbo");
-    turboBtn.onclick = function() {
-        turboMode();
-    };
-};
-
-
-var timer = null;
-var framesCout = 0;
-var animationArrFrames;
+text = document.getElementById("textarea");
+animation = document.getElementById("speed");
+size = document.getElementById("size");
 
 function start() {
-    document.getElementById("start").disabled = true;
-    document.getElementById("animation").disabled = true;
-    document.getElementById("stop").disabled = false;
-    animationArrFrames = document.getElementById("text-area").value.split("=====\n");
-    if (timer === null) {
-        if (document.getElementById("turbo").checked) {
-            timer = setInterval(draw, 50);
-        } else {
-            timer = setInterval(draw, 250);
+    var splitFrame = text.value.split("=====\n");
+    var i = 0, f = splitFrame.length;
+
+    (function loop() {
+        text.value = splitFrame[i];
+
+        if (++i < f) {
+            setTimeout(loop, 250)
         }
-    }
+    })();
+};
+
+function stop(time) {
+
 }
 
-function stop() {
-    document.getElementById("start").disabled = false;
-    document.getElementById("animation").disabled = false;
-    document.getElementById("stop").disabled = true;
-    clearInterval(timer);
-    timer = null;
-    document.getElementById("text-area").value = animationArrFrames.join("=====\n");
-    framesCout = 0;
+function startAnimation() {
+    var time = setInterval(start, 250);
 }
 
-
-function turboMode() {
-    var status = document.getElementById("turbo");
-    if (timer !== null) {
-        if (status.checked) {
-            clearInterval(timer);
-            timer = setInterval(draw, 50);
-        } else {
-            clearInterval(timer);
-            timer = setInterval(draw, 250);
-        }
-    }
+function setAnimation() {
+    var animate = animation.options[animation.selectedIndex].innerHTML;
+    text.value = ANIMATIONS[animate];
 }
 
-function draw() {
-    var txtArea = document.getElementById("text-area");
-
-    if (framesCout < animationArrFrames.length) {
-        txtArea.value = animationArrFrames[framesCout];
-        framesCout++;
-    } else {
-        txtArea.value = animationArrFrames[0];
-        framesCout = 1;
-    }
+function setSize() {
+    var fontsize = size.options[size.selectedIndex].value;
+    text.style.fontSize = fontsize;
 }
+
