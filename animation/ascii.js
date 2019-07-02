@@ -59,6 +59,10 @@ function setSize() {
 function setSpeed() {
     var turbo = speed.checked;
     //alert(turbo);
-
+    if(turbo == true) {
+        interval = setInterval(start, 50);
+    } else {
+        interval = setInterval(start, 250);
+    }
 }
 

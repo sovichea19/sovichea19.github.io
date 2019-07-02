@@ -32,7 +32,6 @@ fieldset {
 }
 
 #validator {
-    opacity: 0.5;
     text-align: right;
     position: fixed;
     bottom: 0;
