@@ -9,11 +9,12 @@ let speed = 250;
 let index = 0;
 let timer;
 
-window.onload = function () {
-    document.getElementById("start").onclick = function () {
+window.onload = function() {
+    document.getElementById("start").onclick = function() {
         controlDisable(true);
         let animation = document.getElementById("animation").value;
         let contents = ANIMATIONS[animation];
+        //split the frame
         contents = contents.split("=====\n");
         timer = setInterval((contents) => {
             document.getElementById("text-area").value = contents[index];
