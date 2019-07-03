@@ -1,12 +1,11 @@
-
 window.onload = function () {
     "use strict";
 
     //Use module pattern
     var accountInfoList = [];
     var newAccount = (function () {
-        var accountName = document.getElementById("accountName").value;
-        var depositAmount = document.getElementById("depositAmount").value;
+        // var accountName = document.getElementById("accountName").value;
+        // var depositAmount = document.getElementById("depositAmount").value;
         //Constructor Function
         function Account(accountName, depositAmount) {
             this.accountName = accountName;
