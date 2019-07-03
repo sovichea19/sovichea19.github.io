@@ -34,7 +34,7 @@ function start() {
 };
 
 function stop(time) {
-    interval = clearInterval();
+    clearInterval(interval);
 }
 
 //When the user clicks on start button
@@ -45,7 +45,7 @@ function startAnimation() {
 //When the user selects animation drop down
 function setAnimation() {
     var animate = animation.options[animation.selectedIndex].innerHTML;
-    alert(animate);
+    //alert(animate);
     text.value = ANIMATIONS[animate];
 }
 
