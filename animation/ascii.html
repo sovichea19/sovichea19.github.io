@@ -9,40 +9,40 @@
 </head>
 <body>
     <h1>CS472: ASCII Animation Viewer</h1>
-    <textarea cols="80" rows="20" id="textarea"></textarea>
+    <textarea cols="80" rows="20" id="text-area"></textarea>
     <div id="controls">
         <fieldset>
-            <legend>Play Controls: </legend>
-            <button type="button" id="btnStart" onclick="startAnimation();">Start</button>
-            <button type="button" id="btnStop" onclick="stop();">Stop</button>
+            <legend>Play Controls:</legend>
+            <button id="start">Start</button>
+            <button disabled="disabled" id="stop">Stop</button>
         </fieldset>
 
         <fieldset>
-            <legend>Animation: </legend>
-            <select id="animation" onchange="setAnimation();">
-                <option value="Blank" selected="selected">Blank</option>
+            <legend>Animation:</legend>
+            <label for="animation"></label>
+            <select id="animation">
+                <option selected="selected" value="Blank">Blank</option>
                 <option value="Exercise">Exercise</option>
                 <option value="Juggler">Juggler</option>
                 <option value="Bike">Bike</option>
                 <option value="Dive">Dive</option>
             </select>
         </fieldset>
-
         <fieldset>
             <legend>Size:</legend>
-            <select id="size" onchange="setSize();">
+            <label for="fontsize"></label>
+            <select id="fontsize">
                 <option value="7pt">Tiny</option>
                 <option value="10pt">Small</option>
-                <option value="12pt">Medium</option>
+                <option value="12pt" selected="selected">Medium</option>
                 <option value="16pt">Large</option>
                 <option value="24pt">Extra Large</option>
-                <option value="32pt">XXL</option>
+                <option value="30pt">XXL</option>
             </select>
         </fieldset>
-
         <fieldset>
-            <legend>Speed: </legend>
-            <input type="checkbox" name="speed" id="speed" onchange="setSpeed();"> Turbo
+            <legend>Speed:</legend>
+            <label><input id="turbo" type="checkbox"> Turbo</label>
         </fieldset>
     </div>
 

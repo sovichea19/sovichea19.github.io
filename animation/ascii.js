@@ -5,64 +5,50 @@
  * ID: 985421
  */
 
-var text, animation, size, speed;
-var interval;
+let speed = 250;
+let index = 0;
+let timer;
 
-window.onload = function() {
-    text = document.getElementById("textarea");
-    animation = document.getElementById("animation");
-    size = document.getElementById("size");
-    speed = document.getElementById("speed");
-};
+window.onload = function () {
+    document.getElementById("start").onclick = function () {
+        controlDisable(true);
+        let animation = document.getElementById("animation").value;
+        let contents = ANIMATIONS[animation];
+        contents = contents.split("=====\n");
+        timer = setInterval((contents) => {
+            document.getElementById("text-area").value = contents[index];
+            index === contents.length - 1 ? index = 0 : index++;
+        }, speed, contents);
 
-// text = document.getElementById("textarea");
-// animation = document.getElementById("animation");
-// size = document.getElementById("size");
+    };
 
-function start() {
-    //We will have to split the animation with split frame
-    let splitFrame = text.value.split("=====\n");
-    let i = 0, f = splitFrame.length;
+    document.getElementById("stop").onclick = function () {
+        controlDisable(false);
+        index = 0;
+        clearInterval(timer);
+        timer = null;
+        document.getElementById("text-area").value = "";
+    };
 
-    (function loop() {
-        text.value = splitFrame[i];
-
-        if (++i < f) {
-            setTimeout(loop, 250)
-        }
-    })();
-};
-
-function stop(time) {
-    clearInterval(interval);
-}
-
-//When the user clicks on start button
-function startAnimation() {
-    interval = setInterval(start, 250);
-}
-
-//When the user selects animation drop down
-function setAnimation() {
-    var animate = animation.options[animation.selectedIndex].innerHTML;
-    //alert(animate);
-    text.value = ANIMATIONS[animate];
-}
-
-//When the user selects size
-function setSize() {
-    var fontsize = size.options[size.selectedIndex].value;
-    text.style.fontSize = fontsize;
-}
-
-//When the user check the box
-function setSpeed() {
-    var turbo = speed.checked;
-    //alert(turbo);
-    if(turbo === true) {
-        interval = setInterval(start, 50);
-    } else {
-        interval = setInterval(start, 250);
+    function controlDisable(active) {
+        document.getElementById("start").disabled = active;
+        document.getElementById("stop").disabled = !active;
+        document.getElementById("animation").disabled = active;
     }
-}
+
+    document.getElementById("fontsize").addEventListener("change", event => {
+        document.getElementById("text-area").style.fontSize = event.target.value;
+    });
+
+    document.getElementById("turbo").addEventListener("change", event => {
+        event.target.checked ? speed = "50" : speed = "250";
+    });
+
+};
+
+
+
+
+
+
 
