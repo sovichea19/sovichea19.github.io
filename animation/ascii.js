@@ -5,11 +5,11 @@
  * ID: 985421
  */
 
-let speed = 250;
-let index = 0;
-let timer;
-
 window.onload = function() {
+    let speed = 250;
+    let index = 0;
+    let timer;
+
     document.getElementById("start").onclick = function() {
         controlDisable(true);
         let animation = document.getElementById("animation").value;
