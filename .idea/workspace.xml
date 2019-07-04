@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615e89d1-fb5b-4b68-a623-52891136135a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mousemaze/maze.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mousemaze/maze.html" beforeDir="false" afterPath="$PROJECT_DIR$/mousemaze/maze.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mousemaze/maze.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -94,9 +101,9 @@
         <option value="$PROJECT_DIR$/ajax-homework/files/test1.txt" />
         <option value="$PROJECT_DIR$/ajax-homework2/ajax-homework2.js" />
         <option value="$PROJECT_DIR$/ajax-homework2/ajax2.html" />
-        <option value="$PROJECT_DIR$/mousemaze/maze.html" />
         <option value="$PROJECT_DIR$/mousemaze/maze.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/mousemaze/maze.html" />
       </list>
     </option>
   </component>
@@ -120,6 +127,11 @@
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="mousemaze" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,12 +183,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561402918895</updated>
       <workItem from="1561402920399" duration="14086000" />
-      <workItem from="1561561007104" duration="59714000" />
+      <workItem from="1561561007104" duration="59889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73800000" />
+    <option name="totallyTimeSpent" value="73975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="295" y="62" width="982" height="683" extended-state="0" />
@@ -532,17 +544,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mousemaze/maze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mousemaze/maze.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
