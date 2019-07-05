@@ -1,24 +1,7 @@
-// $(document).ready(function () {
-//     $("div.boundary").mouseenter(function () {
-//         $(this).addClass("youlose").css({
-//             "background": "red"
-//         });
-//         $("h2#status").append("<h3>").text("You LOSER! You have moved over the element : " + $(this).attr("class"));
-//     });
-//     $("#start").click(function () {
-//         $("div.boundary").css({
-//             "background": "white"
-//         });
-//     });
-//
-//     $("#end").mouseenter(function () {
-//         $("h2#status").append("<h3>").text("You win. Congratulations!");
-//     })
-// });
-
-"use strict";
 
 $(document).ready(function() {
+    "use strict";
+
     $("div.boundary").mouseenter(function() {
         $(this).addClass("lose").css({
             "background": "red"
