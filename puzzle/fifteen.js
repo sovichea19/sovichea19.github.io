@@ -11,7 +11,6 @@ $(document).ready(function () {
             // calculate x and y for this piece
             var x = ((i % 4) * 100);
             var y = (Math.floor(i / 4) * 100);
-            // set basic style and background
             puzzle.className = "puzzlepiece";
             puzzle.id = i;
             puzzle.style.left = x + 'px';
