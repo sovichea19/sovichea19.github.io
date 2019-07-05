@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615e89d1-fb5b-4b68-a623-52891136135a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzle/fifteen.js" beforeDir="false" afterPath="$PROJECT_DIR$/puzzle/fifteen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzle/fifteen.html" beforeDir="false" afterPath="$PROJECT_DIR$/puzzle/fifteen.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +12,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/puzzle/fifteen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="173">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/puzzle/fifteen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mousemaze/maze.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mousemaze/maze.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -60,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/aboutme.html" />
         <option value="$PROJECT_DIR$/journal/css/layout.css" />
         <option value="$PROJECT_DIR$/aboutme/index.html" />
         <option value="$PROJECT_DIR$/aboutme/css/styleme.css" />
@@ -111,6 +127,7 @@
         <option value="$PROJECT_DIR$/puzzle/fifteen.css" />
         <option value="$PROJECT_DIR$/practice/test.js" />
         <option value="$PROJECT_DIR$/puzzle/fifteen.js" />
+        <option value="$PROJECT_DIR$/puzzle/fifteen.html" />
       </list>
     </option>
   </component>
@@ -134,6 +151,11 @@
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="mousemaze" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -203,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78436000" />
+    <option name="totallyTimeSpent" value="78676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="360" y="69" width="982" height="683" extended-state="0" />
@@ -499,25 +521,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax-homework2/ajax-homework2.js" />
     <entry file="file://$PROJECT_DIR$/ajax-homework2/ajax2.html" />
-    <entry file="file://$PROJECT_DIR$/mousemaze/maze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/puzzle/hw7-mac-shuffled.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/puzzle/README.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mousemaze/maze.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/puzzle/fifteen.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -543,17 +551,31 @@
     <entry file="file://$PROJECT_DIR$/puzzle/tomandjerry.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mousemaze/maze.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mousemaze/maze.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/puzzle/fifteen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/puzzle/fifteen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="173">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
