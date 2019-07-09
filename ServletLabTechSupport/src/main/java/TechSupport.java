@@ -30,7 +30,7 @@ public class TechSupport extends HttpServlet {
                 "      Problem Description:<br/>\n" +
                 "       <textarea name=\"desc\" rows=\"8\" cols=\"30\">\n" +
                 "       </textarea><br/>\n" +
-                "       <input type='submit'  />\n" +
+                "      <button type='submit'>Help</button>\n" +
                 "    </form>\n" +
                 "</body>\n" +
                 "</html>";

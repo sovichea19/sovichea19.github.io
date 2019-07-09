@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="615e89d1-fb5b-4b68-a623-52891136135a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServletLabTechSupport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletLabTechSupport/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletLabTechSupport/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletLabTechSupport/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServletLabTechSupport/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ServletLabTechSupport/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletLabTechSupport/src/main/java/TechSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServletLabTechSupport/src/main/java/TechSupport.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="83" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,11 +112,6 @@
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="animation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -149,16 +133,10 @@
               <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="puzzle" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sovichea19.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sovichea19.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="ServletLabTechSupport" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,10 +199,10 @@
     <option name="totallyTimeSpent" value="81118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="68" width="982" height="683" extended-state="0" />
+    <frame x="106" y="130" width="982" height="683" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23404256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23829788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
