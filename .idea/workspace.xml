@@ -4,7 +4,8 @@
     <list default="true" id="615e89d1-fb5b-4b68-a623-52891136135a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServletLabTechSupport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletLabTechSupport/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletLabTechSupport/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServletLabTechSupport/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServletLabTechSupport/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ServletLabTechSupport/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,9 +105,9 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="326" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="106" />
+    <option name="y" value="130" />
     <option name="width" value="982" />
     <option name="height" value="683" />
   </component>
@@ -212,12 +213,12 @@
       <workItem from="1561561007104" duration="62478000" />
       <workItem from="1562341502507" duration="1872000" />
       <workItem from="1562388467209" duration="384000" />
-      <workItem from="1562677660079" duration="119000" />
+      <workItem from="1562677660079" duration="717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80342000" />
+    <option name="totallyTimeSpent" value="81118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="326" y="68" width="982" height="683" extended-state="0" />
