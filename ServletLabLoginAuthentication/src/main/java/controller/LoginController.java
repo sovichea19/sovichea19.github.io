@@ -31,14 +31,7 @@ public class LoginController extends HttpServlet {
         if (!username.trim().isEmpty() && !password.trim().isEmpty()) {
             //Success
 
-//            PrintWriter out = resp.getWriter();
-////        out.print("te");
-//            out.print(username);
-//            out.print(password);
-
             boolean success = Authentication.auth(username.trim(), password.trim());
-
-
 
             if(success) {
                 HttpSession session = req.getSession();
