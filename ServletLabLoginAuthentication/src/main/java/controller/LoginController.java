@@ -15,6 +15,7 @@ public class LoginController extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String remember = req.getParameter("remember");
+        String promo = "100USD";
 
 //        PrintWriter out = resp.getWriter();
 //        out.print("te");
@@ -32,19 +33,26 @@ public class LoginController extends HttpServlet {
                 if (remember != null) {
                     Cookie user = new Cookie("username", username.trim());
                     Cookie rem = new Cookie("remember", remember.trim());
+                    Cookie promotion = new Cookie("promocode", promo);
                     //Set cookie max age to 1 month
                     user.setMaxAge(60 * 60 * 24 * 30);
                     rem.setMaxAge(60 * 60 *24 * 30);
+                    promotion.setMaxAge(60 * 60 * 24 * 30);
                     resp.addCookie(user);
                     resp.addCookie(rem);
+                    resp.addCookie(promotion);
                 } else {
                     //Clear cookie
                     Cookie user = new Cookie("username", null);
                     Cookie rem = new Cookie("remember", null);
+                    Cookie promotion = new Cookie("promocode", null);
                     user.setMaxAge(0);
-                    user.setMaxAge(0);
+                    rem.setMaxAge(0);
+                    promotion.setMaxAge(0);
+
                     resp.addCookie(user);
                     resp.addCookie(rem);
+                    resp.addCookie(promotion);
                 }
 
                 HttpSession session = req.getSession();

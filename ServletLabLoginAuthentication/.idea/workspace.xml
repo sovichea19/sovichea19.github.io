@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cff21d2-c072-46bb-94fd-f28260b9a532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../custom-tag-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../custom-tag-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../custom-tag-demo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../custom-tag-demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../custom-tag-demo/target/custom-tag-demo-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../custom-tag-demo/target/custom-tag-demo-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../custom-tag-demo/target/custom-tag-demo-0.0.1-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../custom-tag-demo/target/custom-tag-demo-0.0.1-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
+            <state relative-caret-position="214">
+              <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -52,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="237">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +115,11 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Username.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Authentication.java" />
         <option value="$PROJECT_DIR$/web/welcome.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LogoutController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/filter/AuthFilter.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -325,18 +317,18 @@
       <option name="presentableId" value="Default" />
       <updated>1562726463400</updated>
       <workItem from="1562726467137" duration="76000" />
-      <workItem from="1562788881372" duration="9169000" />
+      <workItem from="1562788881372" duration="9514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9245000" />
+    <option name="totallyTimeSpent" value="9590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="166" y="23" width="982" height="601" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25531915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25531915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -349,7 +341,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32994923" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38310412" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38310412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,13 +367,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-206">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -426,16 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/LogoutController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -465,11 +440,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="31" column="91" selection-start-line="31" selection-start-column="91" selection-end-line="31" selection-end-column="91" />
+        <state relative-caret-position="214">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
             <element signature="n#style#0;n#label#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
