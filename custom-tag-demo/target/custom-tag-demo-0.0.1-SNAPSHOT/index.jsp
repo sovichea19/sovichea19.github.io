@@ -10,5 +10,11 @@
 </head>
 <body>
 	<mct:ColorMe text="Please color me." foreColor="red"/>
+
+
+
+	<mct:ColorMe text="Hello World" foreColor="yellow"/>
+
+	<h1><mct:ColorMe text="Hello JSTL" foreColor="blue"/> </h1>
 </body>
 </html>

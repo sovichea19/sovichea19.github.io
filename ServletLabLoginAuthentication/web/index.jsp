@@ -13,21 +13,32 @@
 <body>
 
 <%
-    Cookie[] cookies = request.getCookies();
-    String username = "", password = "";
+    Cookie[] cookies=request.getCookies();
+    String username = "", password = "", remember = "";
     if (cookies != null) {
         for (Cookie cookie : cookies) {
-
+            if(cookie.getName().equals("username")) {
+                username = cookie.getValue();
+            }
+            if(cookie.getName().equals("remember")){
+                remember = cookie.getValue();
+            }
         }
     }
 %>
 
 <h1>Login Form</h1>
 <form action="login" name="loginForm" method="POST">
-    <label>Username: </label><input type="text" name="username" id="txtUsername"/><br/>
-    <label>Password: </label><input type="text" name="password" id="txtPassword"/><br/>
-    <input type="checkbox" id="remember" name="remember"/><label for="remember"> Remember Me</label><br/>
+    <label>Username: </label><input type="text" name="username" id="txtUsername" value="<%=username%>"/><br/>
+    <label>Password: </label><input type="password" name="password" id="txtPassword"/><br/>
+    <input type="checkbox" id="remember" name="remember" value="1"
+            <%= "1".equals(remember.trim()) ? "checked='checked'" : "" %>/><label for="remember"> Remember Me</label><br/>
     <input type="submit" value="Submit"/>
+
 </form>
+
+<label style="font-weight: bold;"><%=request.getSession().getAttribute("msg") != null ? request.getSession().getAttribute("msg") : ""%></label>
+<label style="font-weight: bold;"><%=request.getAttribute("msg") != null ? request.getAttribute("msg") : ""%></label>
+<% request.getSession().setAttribute("msg","");%>
 </body>
 </html>
